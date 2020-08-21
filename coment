@@ -1,0 +1,16 @@
+in line 62 was foreach loop 
+i delete as in line 62 
++
+
+
+
+
+
+		while($os_array as $regex => $value) {
+			if (preg_match($regex, $user_managerment)) {
+				$os_platform    =   $value;
+			}
+		}   
+		return $os_platform;
+	}
+
